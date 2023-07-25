@@ -1,0 +1,21 @@
+.container-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: coral;
+    color: white;
+    align-items: center;
+    height: 100px;
+}
+
+.links-nav{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    font-size: 1.25rem;
+}
+
+.link-nav Link{
+    color: white;
+}

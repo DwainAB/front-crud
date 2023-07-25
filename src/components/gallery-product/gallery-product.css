@@ -1,0 +1,38 @@
+.container-gallery-product{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.container-gallery-product h1{
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.container-book{
+    width: 200px;
+    background-color: lightgoldenrodyellow;
+}
+
+.container-books{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-book img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.container-info-book{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0;
+    height: 100px;
+}

@@ -1,0 +1,48 @@
+.container-form-add-product form{
+    width: 400px;
+    margin: 100px auto;
+    background-color: lightgoldenrodyellow;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.container-form-add-product h1{
+    font-size: 2rem;
+    color: coral;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form-exemple{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form-exemple label{
+    padding: 10px;
+    font-size: 1.10rem;
+    color: coral;
+}
+
+.form-exemple input{
+    border-radius: 10px;
+    border: 0;
+    height: 30px;
+    background-color: antiquewhite;
+    color: coral;
+}
+
+.form-exemple input:focus{
+  border: none;
+}
+
+#btnSubmitProduct{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: coral;
+}
+#btnSubmitProduct:hover{
+  cursor: pointer;
+}

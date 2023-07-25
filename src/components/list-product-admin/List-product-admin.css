@@ -1,0 +1,80 @@
+.header-list-product{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header-list-product p{
+    width: 100px;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.container-book-admin{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:lightgoldenrodyellow;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.container-info-book-admin{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.container-info-book-admin p, .container-info-book-admin button{
+    width: 100px;
+}
+.container-info-book-admin{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnUpdate{
+    width: 100px;
+    background-color: coral;
+    color: white;
+    margin: 10px auto;
+    border: 0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.btnsUpdate{
+    display: flex;
+    flex-direction: row;
+}
+.btnsUpdate:hover{
+cursor: pointer;
+}
+
+.edit-product-form h2{
+    font-size: 1.5rem;
+    color: coral;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input{
+    padding-left: 20px;
+}
+
+.btnAction{
+    background-color: coral;
+    border: 0;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btnAction:hover{
+    cursor: pointer;
+}
